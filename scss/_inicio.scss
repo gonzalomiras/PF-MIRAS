@@ -1,0 +1,96 @@
+.chiuni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $mini;
+
+    img {
+        border: solid $color-negro;
+        text-align: center;
+        max-width: 100%;
+        }
+}
+
+.arteymoda {
+    @include carreras-mixin
+}
+
+.ingindex {
+    @include carreras-mixin
+}
+
+.medindex{
+    @include carreras-mixin
+    
+}
+.jurindex{
+    @include carreras-mixin
+} 
+
+.titleca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/*Incluyendo Mixin a los Científicos*/
+
+.favaloro {
+    @include cientifico-mixin
+}
+.rabinovich {
+    @include cientifico-mixin
+}
+.gamarnik {
+    @include cientifico-mixin
+}
+
+.milstein {
+    @include cientifico-mixin
+}
+.noticias {
+    margin: 0 auto;
+    margin-top: $max * 3;
+    margin-bottom: $max * 3;
+}
+.grandes {
+    margin: 0 auto;
+    margin-top: $max * 3;
+    margin-bottom: $max * 3;
+    margin: $mini;
+}
+.malvarg img{
+    width: $mega * 10;
+    border-style: solid;
+    border-color: $color-negro;
+}
+
+.notint {
+    background-color: $color-gris;
+    margin-left: $mini;
+    margin-right: $mini;
+    border: solid;
+}
+
+.anidada{
+    margin-top: $mini;
+    margin-bottom: $max;
+    font-style: italic;
+
+    ul{
+    list-style: none;
+    margin-left: 3px;
+    }
+}
+
+.titnot {
+    text-align: center;
+    color: $color-azul;
+    font-size: 2rem;
+}
+
+.contentcarrera {
+    margin-left: $mini;
+    margin-right: $mini;
+}

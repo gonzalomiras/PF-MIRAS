@@ -1,0 +1,62 @@
+/*VARIABLES*/
+
+@mixin cientifico-mixin {
+    background-color: $color-secundario;
+    border: solid 3px black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+
+    img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    }
+
+    h3 {
+    text-align: center;
+    color: white;
+    }
+
+    p{
+    color: white;
+    }
+}
+
+@mixin carreras-mixin {
+    background-color: $color-gris;
+    padding: 10px;
+    margin: 5px, 5px;
+    border: solid 3px black;
+    justify-content: center;
+    align-items: center;
+
+    img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    }
+
+    ul{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    text-align: center;
+    padding-left: 0rem;
+    }    
+}
+
+/*PALETA DE COLORES*/
+
+$color-negro: black;
+$color-azul: rgb(29, 22, 83);
+$color-gris: rgb(199, 199, 199);
+$color-blanco: white;
+$color-secundario: rgb(106, 72, 117);
+
+/*ESPACIADOS*/
+
+$mini: 5px;
+$max: 10px;
+$mega: 20px;
