@@ -21,29 +21,37 @@
   .titulosfacultad {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: $mega;
     background-image: linear-gradient(to left, $color-gris, rgb(232, 232, 232));
-    margin: $max;
+    margin: $mega;
   }
 
   .bodyfacultades {
     background-image: linear-gradient(to left, rgb(26, 26, 68), rgb(28, 0, 212), black);
     padding-top: $mini;
     padding-bottom: $mini;
+    margin: $mega
   }
 
 .titulocarrera {
     text-align: center;
     color: $color-blanco;
+    margin: $max
 }
 
 .textocarrera {
-    color: $color-gris;
+    color: $color-negro;
     text-align: center;
     font-size: 1rem;
     margin-bottom: $mega + $mega;
 }
 
 .parrafocarrera {
-    text-align: center;
+    text-align: justify;
+    margin: $max;
+}
+
+.mision {
+  background-color: $color-gris;
+  margin: $max;
+  padding: $mini;
 }
