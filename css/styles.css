@@ -179,86 +179,6 @@ header {
   max-height: 70vh;
 }
 
-.arteymoda {
-  background-color: rgb(199, 199, 199);
-  padding: 10px;
-  margin: 5px, 5px;
-  border: solid 3px black;
-  justify-content: center;
-  align-items: center;
-}
-.arteymoda img {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-}
-.arteymoda ul {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding-left: 0rem;
-}
-
-.ingindex {
-  background-color: rgb(199, 199, 199);
-  padding: 10px;
-  margin: 5px, 5px;
-  border: solid 3px black;
-  justify-content: center;
-  align-items: center;
-}
-.ingindex img {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-}
-.ingindex ul {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding-left: 0rem;
-}
-
-.medindex {
-  background-color: rgb(199, 199, 199);
-  padding: 10px;
-  margin: 5px, 5px;
-  border: solid 3px black;
-  justify-content: center;
-  align-items: center;
-}
-.medindex img {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-}
-.medindex ul {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding-left: 0rem;
-}
-
-.jurindex {
-  background-color: rgb(199, 199, 199);
-  padding: 10px;
-  margin: 5px, 5px;
-  border: solid 3px black;
-  justify-content: center;
-  align-items: center;
-}
-.jurindex img {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-}
-.jurindex ul {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding-left: 0rem;
-}
-
 .titleca {
   display: flex;
   flex-direction: column;
@@ -408,6 +328,16 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   color: #fbfbfb;
   font-weight: bold;
+}
+
+.title-noticia {
+  color: rgb(21, 21, 208);
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .probando {
