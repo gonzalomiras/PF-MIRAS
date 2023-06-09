@@ -58,14 +58,6 @@ p {
   color: rgb(12, 12, 71);
 }
 
-header {
-  background-color: white;
-  border: white;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
 .whatsapp {
   position: fixed;
   bottom: 15px;
